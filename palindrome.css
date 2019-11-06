@@ -1,0 +1,88 @@
+@import url();
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.box {
+    width: 450px;
+    height: 450px;
+    border: 0.005px solid #ffffff;
+    border-width: 0.05px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000000;
+    position: relative;
+    margin: auto;
+    padding: 30px;
+    color: #516be0;
+}
+
+#heading {
+    font-family: 'Roboto', sans-serif;
+    font: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+}
+
+p.inputWord {
+    font-family: 'Roboto', sans-serif;
+    font: 'Roboto';
+    font-size: 15px;
+    text-align: center;
+}
+
+#wordCollector {
+    width: 100%;
+    height: 30px;
+    color: #9b51e0;
+    border: 0.05px solid;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: none;
+    outline: 0;
+}
+
+::placeholder {
+    color: #516be0;
+    font: 'Roboto';
+    font-weight: 100;
+    padding-left: 10px;
+}
+
+#submitButton {
+    background-color: #9b51e0;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: 0.05px solid;
+    border-radius: 20px;
+    outline: 0;
+    margin-top: 50px;
+    margin-right: 50%;
+}
+
+button:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.displayResult {
+    margin: 40px;
+}
+
+
+/*#displayPanel {}*/
+
+.footer {
+    text-align: center;
+}
